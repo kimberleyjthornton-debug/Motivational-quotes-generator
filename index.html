@@ -3,42 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Limelight&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
     <title>Motivational Quote Generator</title>
   </head>
   <body>
     <header>
-      <h1>Welcome to the Motivational Quote Generator!</h1>
+      <div class="heading-container">
+        <h1>Welcome to the Motivational Quote Generator!</h1>
+      </div>
     </header>
     <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a keyword (optional)" autofocus required autocomplete="off"
-          id="keyword-input"
-        />
-        <input type="submit"/>
-      </form>
-      <div id="quote-display">
-        <p id="quote-text">Your motivational quote will appear here.</p>
+      <div class="form-container">
+        <form class="quote-form" id="quote-form">
+          <input
+            type="text"
+            placeholder="Enter a keyword (optional)"
+            required
+            autocomplete="off"
+            class="keyword-input-bar"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+      </div>
+      <div class="quote-container">
+        <p id="quote-text" class="quote-text">
+          Your motivational quote will appear here.
+        </p>
+      </div>
     </main>
     <footer>
       This AI project was coded by
-      <a href="https://www.instagram.com/kimberleythornton_/_" target="_blank"
+      <a
+        href
+        class="link"
+        ="https://www.instagram.com/kimberleythornton_/_"
+        target="_blank"
         >Kim Thornton</a
       >, is open-sourced on
       <a
-        href="https://github.com/kimberleyjthornton-debug/Motivational-quotes-generator"
+        href
+        class="link"
+        ="https://github.com/kimberleyjthornton-debug/Motivational-quotes-generator"
         target="_blank"
         >GitHub</a
       >
       and hosted on
       <a
-        href="https://motivational-quote-generator-bykjt.netlify.app/"
+        href
+        class="link"
+        ="https://motivational-quote-generator-bykjt.netlify.app/"
         target="_blank"
         >Netlify</a
       >.
     </footer>
+
     <script src="src/script.js"></script>
   </body>
 </html>

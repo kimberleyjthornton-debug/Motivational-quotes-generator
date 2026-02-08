@@ -1,0 +1,103 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/178/089/original/pexels-icon0-733168.jpg?1770556030");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0b0a0a;
+  font-family: "Nunito", sans-serif;
+}
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.nunito-regular {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.heading-container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.444);
+  padding: 30px 5px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 5px;
+}
+.form-container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.444);
+  padding: 30px 5px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 5px;
+}
+.quote-form {
+  padding: 10px 20px;
+}
+.keyword-input-bar {
+  width: 70%;
+  margin: 0 0 0 10px;
+  font-size: 14px;
+  font-weight: 100;
+  color: rgba(42, 40, 40, 0.768);
+  border: none;
+  background-color: rgba(255, 255, 255, 0.788);
+  border-radius: 30px;
+  padding: 20px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+input:focus {
+  outline: 3px solid #8fd8ffd1;
+  outline-color: #8fd8ffd1;
+}
+
+.submit-button {
+  border: 2px solid #ffb68e;
+  border-radius: 30px;
+  background-color: #fa752e;
+  padding: 21px 40px;
+  color: white;
+  font-size: 16px;
+  margin: 0 0 0 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #f69059;
+}
+.quote-container {
+  max-width: 700px;
+  margin: 30px auto;
+  background: rgba(255, 255, 255, 0.444);
+  padding: 30px 5px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 5px;
+}
+.quote-text {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  padding: 10px 30px 10px 30px;
+  margin: 10px;
+}
+h1 {
+  text-align: center;
+  color: #302d40;
+  margin: 0 auto;
+  padding: 2px 0;
+  font-family: "Limelight", sans-serif;
+}
+footer {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 800;
+  color: rgba(8, 8, 8, 0.505);
+  margin: 0 auto;
+  padding: 2px 0;
+  letter-spacing: -1px;
+}
+.link {
+  color: #2c0f63;
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+}

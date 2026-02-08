@@ -77,8 +77,8 @@ input:focus {
 }
 .quote-text {
   font-size: 24px;
-  font-weight: 500;
-  color: black;
+  font-weight: bold;
+  color: #302d40;
   padding: 10px 30px 10px 30px;
   margin: 10px;
 }

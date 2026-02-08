@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.13.2/dist/axios.min.js"></script>
     <title>Motivational Quote Generator</title>
   </head>
   <body>
@@ -24,10 +25,11 @@
         <form class="quote-form" id="quote-form">
           <input
             type="text"
-            placeholder="Enter a keyword (optional)"
+            placeholder="Enter a prompt to generate a motivational quote..."
             required
             autocomplete="off"
-            class="keyword-input-bar"
+            class="prompt-input-bar"
+            id="user-prompt"
           />
           <input type="submit" class="submit-button" />
         </form>

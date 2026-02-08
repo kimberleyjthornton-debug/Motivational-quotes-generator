@@ -34,7 +34,7 @@ body {
 .quote-form {
   padding: 10px 20px;
 }
-.keyword-input-bar {
+.prompt-input-bar {
   width: 70%;
   margin: 0 0 0 10px;
   font-size: 16px;
@@ -47,15 +47,13 @@ body {
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.1);
 }
 input:focus {
-  outline: 3px solid #8fd8ffd1;
-  outline-color: #8fd8ffd1;
+  outline: 2px solid #8fd8ffd1;
 }
-
 .submit-button {
-  border: 2px solid #ffb68e;
+  border: 4px solid #fa752e;
   border-radius: 30px;
   background-color: #fa752e;
-  padding: 21px 40px;
+  padding: 18px 36px;
   color: white;
   font-size: 16px;
   margin: 0 0 0 10px;

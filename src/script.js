@@ -1,13 +1,27 @@
-function generateQuote(event) {
-  event.preventDefault();
-
+function displayQuote(response) {
   new Typewriter("#quote-text", {
-    strings:
-      "The only way to do great work is to love what you do. - Steve Jobs",
+    strings: response.data.answer,
     autoStart: true,
     cursor: "",
     delay: 1,
   });
+}
+
+function generateQuote(event) {
+  event.preventDefault();
+
+  let userPrompt = document.querySelector("#user-prompt").value;
+  let apiKey = "o3d03f027be48ad05b5ec0c715cadt7d";
+  let prompt = `Please generate a motivational quote relating to ${userPrompt}`;
+  let context =
+    "You are a knowledeable AI that generates inspirational and uplifting motivational quotes. The quote should be short, impactful, and suitable for sharing on social media. Feel free to use fun emojis";
+  let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
+
+  console.log("Generating poem...");
+  console.log(`Prompt: ${prompt}`);
+  console.log(`Context: ${context}`);
+
+  axios.get(apiUrl).then(displayQuote);
 }
 
 let quoteForm = document.querySelector("#quote-form");

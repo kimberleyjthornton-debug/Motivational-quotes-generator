@@ -32,12 +32,12 @@ body {
   border-radius: 5px;
 }
 .quote-form {
-  padding: 10px 20px;
+  padding: 5px 20px;
 }
 .prompt-input-bar {
   width: 70%;
   margin: 0 0 0 10px;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
   color: rgba(42, 40, 40, 0.768);
   border: none;
@@ -46,14 +46,14 @@ body {
   padding: 20px;
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.1);
 }
-input:focus {
-  outline: 2px solid #8fd8ffd1;
+.prompt-input-bar:focus {
+  outline: 3px solid #8fd8ffd1;
 }
 .submit-button {
-  border: 4px solid #fa752e;
+  border: 2px solid #fa752e;
   border-radius: 30px;
   background-color: #fa752e;
-  padding: 18px 36px;
+  padding: 20px 38px;
   color: white;
   font-size: 16px;
   margin: 0 0 0 10px;
@@ -61,12 +61,16 @@ input:focus {
 }
 .submit-button:hover {
   cursor: pointer;
+}
+.submit-button:active {
+  transform: scale(0.95);
   background-color: #f69059;
+  border: 2px solid #fb9057;
 }
 .prompt-examples {
   font-size: 14px;
   color: rgba(74, 70, 70, 0.9);
-  margin: 2px 0 0 30px;
+  margin: 2px 0 0 34px;
 }
 .quote-container {
   max-width: 700px;
@@ -75,8 +79,6 @@ input:focus {
   padding: 30px 5px;
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  border-right: 2px solid #341a76c5;
-  border-bottom: 2px solid #341a76c5;
 }
 .quote-text {
   font-size: 24px;

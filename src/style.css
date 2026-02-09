@@ -37,7 +37,7 @@ body {
 .prompt-input-bar {
   width: 70%;
   margin: 0 0 0 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 100;
   color: rgba(42, 40, 40, 0.768);
   border: none;
@@ -70,9 +70,10 @@ body {
 .prompt-examples {
   font-size: 14px;
   color: rgba(74, 70, 70, 0.9);
-  margin: 2px 0 0 34px;
+  margin: 4px 0 0 34px;
 }
 .quote-container {
+  display: none;
   max-width: 700px;
   margin: 30px auto;
   background: rgba(255, 255, 255, 0.444);
@@ -83,7 +84,7 @@ body {
 .quote-text {
   font-size: 24px;
   font-weight: bold;
-  color: #302d40;
+  color: #302d40ec;
   padding: 10px 30px 10px 30px;
   margin: 10px;
 }
@@ -98,13 +99,27 @@ footer {
   text-align: center;
   font-size: 17px;
   font-weight: 800;
-  color: rgba(8, 8, 8, 0.505);
+  color: rgba(8, 8, 8, 0.58);
   margin: 0 auto;
   padding: 2px 0;
   letter-spacing: -1px;
 }
 .link {
-  color: #2c0f63;
+  color: #311a5bcd;
   font-family: "Nunito", sans-serif;
   font-weight: 700;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

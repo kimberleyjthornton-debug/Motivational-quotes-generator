@@ -63,6 +63,11 @@ input:focus {
   cursor: pointer;
   background-color: #f69059;
 }
+.prompt-examples {
+  font-size: 14px;
+  color: rgba(74, 70, 70, 0.9);
+  margin: 2px 0 0 30px;
+}
 .quote-container {
   max-width: 700px;
   margin: 30px auto;

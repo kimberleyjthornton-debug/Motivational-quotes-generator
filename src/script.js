@@ -28,3 +28,11 @@ function generateQuote(event) {
 
 let quoteForm = document.querySelector("#quote-form");
 quoteForm.addEventListener("submit", generateQuote);
+
+function formReset(event) {
+  let afterSubmission = document.querySelector("#quote-form");
+  afterSubmission.reset();
+}
+
+let quoteFormReset = document.querySelector("#quote-form");
+quoteFormReset.addEventListener("submit", formReset);

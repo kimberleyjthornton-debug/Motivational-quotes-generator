@@ -5,110 +5,132 @@ body {
   background-color: #0b0a0a;
   font-family: "Nunito", sans-serif;
 }
+
 .limelight-regular {
   font-family: "Limelight", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 .nunito-regular {
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 .heading-container {
   max-width: 700px;
   margin: 30px auto;
   background: rgba(255, 255, 255, 0.444);
-  padding: 30px 5px;
+  padding: 30px;
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
+
 .form-container {
   max-width: 700px;
   margin: 30px auto;
   background: rgba(255, 255, 255, 0.444);
-  padding: 30px 5px;
+  padding: 35px 30px 30px 30px;
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
+
 .quote-form {
   padding: 5px 20px;
 }
+
 .prompt-input-bar {
   width: 70%;
   margin: 0 0 0 10px;
-  font-size: 16px;
-  font-weight: 100;
-  color: rgba(42, 40, 40, 0.768);
+  font-family: "League Spartan", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  color: rgb(82, 82, 82);
   border: none;
   background-color: rgba(255, 255, 255, 0.788);
-  border-radius: 30px;
+  border-radius: 2px;
   padding: 20px;
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.1);
 }
+
 .prompt-input-bar:focus {
-  outline: 3px solid #8fd8ffd1;
+  outline: 1px solid #000000d1;
 }
+
 .submit-button {
+  font-family: "League Spartan", sans-serif;
   border: 2px solid #fa752e;
-  border-radius: 30px;
+  border-radius: 4px;
   background-color: #fa752e;
   padding: 20px 38px;
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0 0 0 10px;
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.1);
 }
+
 .submit-button:hover {
   cursor: pointer;
 }
+
 .submit-button:active {
   transform: scale(0.95);
   background-color: #f69059;
   border: 2px solid #fb9057;
 }
+
 .prompt-examples {
+  font-family: "League Spartan", sans-serif;
   font-size: 14px;
-  color: rgba(74, 70, 70, 0.9);
-  margin: 4px 0 0 34px;
+  color: rgba(74, 70, 70, 0.8);
+  margin: 6px 0 0 34px;
 }
+
 .quote-container {
   display: none;
   max-width: 700px;
   margin: 30px auto;
   background: rgba(255, 255, 255, 0.444);
-  padding: 30px 5px;
+  padding: 30px;
   box-shadow: 3px 6px 9px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
 }
+
 .quote-text {
+  font-family: "League Spartan", sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: #302d40ec;
   padding: 10px 30px 10px 30px;
   margin: 10px;
 }
+
 h1 {
   text-align: center;
   color: #302d40;
   margin: 0 auto;
   padding: 2px 0;
-  font-family: "Limelight", sans-serif;
+  font-family: "Playfair Display", serif;
 }
+
 footer {
   text-align: center;
+  font-family: "League Spartan", sans-serif;
   font-size: 17px;
-  font-weight: 800;
+  font-weight: 400;
   color: rgba(8, 8, 8, 0.58);
   margin: 0 auto;
   padding: 2px 0;
   letter-spacing: -1px;
 }
+
 .link {
   color: #311a5bcd;
-  font-family: "Nunito", sans-serif;
-  font-weight: 700;
+  font-family: "League Spartan", sans-serif;
+  font-weight: 500;
 }
+
 .generating {
   animation: blink-animation 1s steps(5, start) infinite;
 }
